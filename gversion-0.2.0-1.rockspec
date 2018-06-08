@@ -3,26 +3,25 @@
 -- vim: set ft=lua:
 
 package = 'gversion'
-version = '0.1.0-1'
+version = '0.2.0-1'
 
 -- LuaDist source
 source = {
-  tag = "0.1.0-1",
+  tag = "0.2.0-1",
   url = "git://github.com/LuaDist-testing/gversion.git"
 }
 -- Original source
 -- source = {
 --   url = 'git://github.com/jirutka/gversion.lua.git',
---   tag = 'v0.1.0',
+--   branch = 'v0.2.0',
 -- }
 
 description = {
   summary = 'Lua library for Gentoo-style versioning format',
   detailed = [[
-    Gentoo versioning format (scheme) is like Semantic Versioning, but more
-    flexible and complex. See details in
-    https://devmanual.gentoo.org/ebuild-writing/file-format/#file-naming-rules.
-  ]],
+Gentoo versioning format (scheme) is like Semantic Versioning, but more
+flexible and complex. This library allows to parse, normalize, validate
+and compare version numbers.]],
   homepage = 'https://github.com/jirutka/gversion.lua',
   maintainer = 'Jakub Jirutka <jakub@jirutka.cz>',
   license = 'MIT',

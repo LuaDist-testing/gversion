@@ -1,0 +1,6 @@
+busted
+ldoc
+luacheck
+luacov
+luacov-coveralls
+moonscript
